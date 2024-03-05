@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Composition II in Red, Blue, and Yellow</title>
+  </head>
+  
+  <body>
+    <div class="container"> <!-- Div containers -->
+      <!-- ABC -->
+      <div class="row"> <!-- Dividimos nuestro container en un row -->
+        <div class="col-3"> <!-- Dividimos una columna de 3, lo restante sera 9 -->
+          <div class="row"> <!-- Nuestra columna de 3, la dividimos en un row -->
+            <div id="a" class="col-12"> <!-- A ese row de la columna tamaño 3 de nuestro container -->
+              <!-- Piece A -->
+              <!-- Metemos la pieza a, o el contenido de css que este en la id a -->
+              <!-- Esta pieza a sus subcolumnas, van a ser llenadas por a, por ser 12 columnas -->
+            </div>
+          </div>
+          <div class="row"> <!-- Nos movemos a la segunda mitad de nuestro columna de 3 -->
+            <div id="b" class="col-12"> <!-- Metemos la pieza b -->
+              <!-- Piece B -->
+              <!-- Igual forma, llenara su row, porque tiene tamañp de columnas 12 -->
+            </div>
+          </div>
+          <!-- Nos salimos de cualquier columna que creemos para dividir el container  -->
+        </div>
+        <div id="c" class="col-9"> <!-- Ponemos a la pieza c en el resto del espacio restante del container -->
+          <!-- Piece C -->
+          <!-- Tiene tamaño de columnas 9 xq ya usamos 3 solumnas de nuestro container -->
+          <!-- Estara ubicado en el row superior, porque creamos un row que divide nuusetr container -->
+        </div>
+      </div> <!-- Nos salimos de nuestro row que creamos, ahora si hacemos modificaciones estaremos en la
+                  mitad de abajo de nuestro container -->
+      <!-- End ABC -->
+
+      <!-- Start DEFG -->
+
+      <div class="row"> <!-- Creamos otra mitad de nuestro container para 
+                                                  dividir nuestro contenido /? -->
+        <div id="d" class="col-3"> <!-- Usando espacio de 3 columnas, agregamos D -->
+          <!-- Piece D -->
+        </div>
+        <div id="e" class="col-8"> <!-- Utilizando espacio de 8 columnas agregamos E -->
+          <!-- Piece E -->
+        </div>
+        <div class="col-1"> <!-- Separamos una columna de tamaño 1 -->
+          <div class="row"> <!-- La separamos en un row /? -->
+            <div id="f" class="col-12">
+              <!-- Piece F -->
+              <!-- Agregamos F que tome todo el espacio de un row -->
+            </div>
+          <div id="g" class="col-12">
+            <!-- Piece G -->
+            <!-- Agrega,mos g que tome todo el espacio del otro row -->
+          </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- End DEFG -->
+    </div>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

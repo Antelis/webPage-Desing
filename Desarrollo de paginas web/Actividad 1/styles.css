@@ -1,0 +1,63 @@
+body{ /* Cambia todos los bodys*/
+    background-color: #f1efdc;
+    font-family: 'consolas';
+
+}
+main{ /* Cambia todos los mains*/
+    margin-right: auto;
+}
+header{ /* Cambia todos los headers*/
+    background-color: #de5947;
+    color: #f1efdc;
+    padding: 10px 0;
+    text-align: center;
+}
+nav{ /* Cambia todos los navs*/
+    margin-top: 20px;
+}
+nav a {  /* Cambia cada nav (cada bloque) independientemente*/
+            /*Actua como un bloque distinto*/
+    display: inline-block; 
+    padding: 10px 10px;
+    text-decoration: none;
+    color: #de5947;
+    background-color: #f2d25b;
+    
+    transition: background-color 0.3s ease;
+  }
+
+nav a:hover { /* Function para que sirva el hover?*/
+    background-color: #ddc142;
+}
+
+.barraLateral { /* Clase barra lateral*/
+    float: right;
+    width: 300px;
+    margin-left: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+
+.barraLateral img { /* Modifica img de las bbarras lateralse*/
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+footer { /*Modifica todos los footers*/
+    padding: 10px;
+    font-weight: bold;
+    bottom: 0;
+    left: 0;
+}
+
+#wdgaster{ /*Test xd*/
+    background-color: black;
+    color: pink;
+    font-family: 'wingdings';
+    font-size: x-large;
+    font-weight: bolder;
+    text-decoration: aqua dotted underline;
+}
