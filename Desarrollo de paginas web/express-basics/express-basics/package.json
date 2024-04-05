@@ -1,0 +1,17 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "npm init creation",
+  "main": "app.js",
+  "scripts": {
+    "test": "hello"
+  },
+  "keywords": [
+    "hi"
+  ],
+  "author": "andres",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
